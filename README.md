@@ -1,37 +1,16 @@
 # baby-names
 
-FIXME: description
+Baby name generator. Pick a name not too common but not too obscure. Based on 2015 data from US Social Security dataset.
 
 ## Installation
 
-Download from http://example.com/FIXME.
+$ lein deps
 
 ## Usage
 
-FIXME: explanation
+$ lein run
 
-    $ java -jar baby-names-0.1.0-standalone.jar [args]
+or
 
-## Options
-
-FIXME: listing of options this app accepts.
-
-## Examples
-
-...
-
-### Bugs
-
-...
-
-### Any Other Sections
-### That You Think
-### Might be Useful
-
-## License
-
-Copyright © 2017 FIXME
-
-Distributed under the Eclipse Public License either version 1.0 or (at
-your option) any later version.
-# baby-names
+$ lein uberjar
+$ java -jar baby-names-0.1.0-standalone.jar
